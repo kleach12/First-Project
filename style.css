@@ -1,0 +1,148 @@
+
+*
+{
+  margin:0;
+  padding:0;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #F5F5DC;
+    font-weight: 400;
+}
+.container {
+    width: 80%;
+    margin: 0 auto
+}
+header {
+    background-color: #04AA6D;
+}
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo {
+    float: left;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 10px;
+    font-size: 30px;
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-top: 10px;
+    width:auto;
+}
+nav li > .fa {
+}
+nav ul > li a {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+nav a:hover {
+    color: black;
+}
+.fa {
+    padding: 10px;
+    font-size: 13px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 1em;
+  }
+.fa:hover {
+    opacity: 0.7;
+  }
+#projectsnav {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.fa-linkedin {
+    background: #4fc499;
+    color: white;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+.fa-twitter {
+    background: #4fc499;
+    color: white;
+  }
+.fa-instagram {
+    background: #4fc499;
+    color: white;
+  }
+.fa-twitch {
+    background: #4fc499;
+    color: white;
+  }
+.fa-github {
+    background: #4fc499;
+    color: white;
+  }
+h1 {
+    text-align: center;
+    color: #04AA6D;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+#colorbar {
+    background-color: #C5C59F;
+}
+#aboutme {
+    display: inline-block;
+}
+#aboutmepic {
+    width: 250px;
+    height: auto;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+#aboutmepar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 0px 20;
+    margin-right: 50px;
+} 
+.boxed {
+    border: 1px solid #04AA6D;
+}
+div h1 {
+    font-size: 70px;
+    color: white;
+    padding: 50px;
+    
+}
+h2 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    color: #04AA6D;
+    padding: 10px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.comingsoon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+td img {
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+    padding: 30px 30px;
+}
+
