@@ -4,19 +4,25 @@
   margin:0;
   padding:0;
 }
+
 body {
     margin: 0 auto;
     padding: 0;
-    background-color: #F5F5DC;
+    background-image:url(Imgs/ocean-background.jpg);
+    /*background-color: #F5F5DC;*/
     font-weight: 400;
+    background-size: auto;
 }
+
 .container {
     width: 80%;
     margin: 0 auto
 }
+
 header {
-    background-color: #04AA6D;
+    background-color: #006994;
 }
+
 header::after {
     content: "";
     display: table;
@@ -30,30 +36,37 @@ header::after {
     padding: 10px 10px;
     font-size: 30px;
 }
+
 nav {
     float: right;
 }
+
 nav ul {
     margin: 10px;
     padding: 0;
     list-style: none;
 }
+
 nav li {
     display: inline-block;
     margin-top: 10px;
     width:auto;
 }
+
 nav li > .fa {
 }
+
 nav ul > li a {
     color: white;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
     font-size: 15px;
 }
+
 nav a:hover {
     color: black;
 }
+
 .fa {
     padding: 10px;
     font-size: 13px;
@@ -62,87 +75,124 @@ nav a:hover {
     text-decoration: none;
     margin-right: 1em;
   }
+
 .fa:hover {
     opacity: 0.7;
   }
+
 #projectsnav {
     margin-left: 1em;
     margin-right: 1em;
 }
+
 .fa-linkedin {
-    background: #4fc499;
+    background: #66a5bf;
     color: white;
     margin-right: 1em;
     margin-left: 1em;
   }
+
 .fa-twitter {
-    background: #4fc499;
+    background: #66a5bf;
     color: white;
   }
+
 .fa-instagram {
-    background: #4fc499;
+    background: #66a5bf;
     color: white;
   }
+
 .fa-twitch {
-    background: #4fc499;
+    background: #66a5bf;
     color: white;
   }
+
 .fa-github {
-    background: #4fc499;
+    background: #66a5bf;
     color: white;
   }
+
 h1 {
     text-align: center;
-    color: #04AA6D;
+    color: #66a5bf;
     font-size: 25px;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
+
 #colorbar {
-    background-color: #C5C59F;
+    background-color: white;
 }
-#aboutme {
-    display: inline-block;
+
+table #aboutmetable {
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
 #aboutmepic {
-    width: 250px;
+    width: 300px;
     height: auto;
-    padding: 10px 10px;
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-#aboutmepar{
+
+#aboutme{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    padding: 0px 20;
-    margin-right: 50px;
+    padding: 25px 20px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
 } 
+
+#aboutmepar ul > li {
+    text-indent: 5%;
+    list-style: none;;
+}
 .boxed {
     border: 1px solid #04AA6D;
 }
+
 div h1 {
     font-size: 70px;
-    color: white;
+    color: #006994;
     padding: 50px;
-    
 }
+
 h2 {
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Playfair Display', serif;
-    color: #04AA6D;
+    color: white;
     padding: 10px 10px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
+h3 {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #006994;
+    padding: 10px 10px;
+    align-items: left;
+    display: flex;
+    justify-content: left;
+}
+
 .comingsoon {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 td img {
-    border-radius: 50%;
+    border-radius: 40px;
+    border: 7px black solid;
     width: 250px;
-    height: auto;
-    padding: 30px 30px;
+    height: 250px;
 }
 
